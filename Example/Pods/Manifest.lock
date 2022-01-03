@@ -1,0 +1,27 @@
+PODS:
+  - ConsoliAds-Inmobi-Adapter (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ConsoliAds-Inmobi-Adapter (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ConsoliAds-Inmobi-Adapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ConsoliAds-Inmobi-Adapter: bec66755a0e6ba715dfbcfe18de31109b62d3160
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 442d26b0759136615519223941aeb6103e9556c1
+
+COCOAPODS: 1.11.2
