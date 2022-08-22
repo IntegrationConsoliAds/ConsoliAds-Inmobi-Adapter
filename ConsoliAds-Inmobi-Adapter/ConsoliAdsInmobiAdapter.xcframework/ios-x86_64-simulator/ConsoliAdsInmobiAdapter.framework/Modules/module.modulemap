@@ -1,0 +1,6 @@
+framework module ConsoliAdsInmobiAdapter {
+  umbrella header "ConsoliAdsInmobiAdapter.h"
+
+  export *
+  module * { export * }
+}

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -32,11 +32,11 @@
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
 		AFA4A54095EB875BC5150E6A3D4FFB76 /* Pods-ConsoliAds-Inmobi-Adapter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B07ED74FCEA291B84A47BB830BC57110 /* Pods-ConsoliAds-Inmobi-Adapter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		BA81E68027833EBE006DD201 /* ConsoliAdsInmobiAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA81E67F27833EBE006DD201 /* ConsoliAdsInmobiAdapter.framework */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		CDCC4A4C3E3F710BD67991D67A4604F4 /* Pods-ConsoliAds-Inmobi-Adapter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C26D21E2FBF75F185EEB26A2C19917B8 /* Pods-ConsoliAds-Inmobi-Adapter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC2D4F9028B361FE001A7E6A /* ConsoliAdsInmobiAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2D4F8F28B361FE001A7E6A /* ConsoliAdsInmobiAdapter.xcframework */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -109,7 +109,6 @@
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B07ED74FCEA291B84A47BB830BC57110 /* Pods-ConsoliAds-Inmobi-Adapter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConsoliAds-Inmobi-Adapter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		BA81E67F27833EBE006DD201 /* ConsoliAdsInmobiAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConsoliAdsInmobiAdapter.framework; path = "ConsoliAds-Inmobi-Adapter/ConsoliAdsInmobiAdapter.framework"; sourceTree = "<group>"; };
 		C26D21E2FBF75F185EEB26A2C19917B8 /* Pods-ConsoliAds-Inmobi-Adapter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConsoliAds-Inmobi-Adapter_Example-umbrella.h"; sourceTree = "<group>"; };
 		CB21CC12103DF77E370BC56B07973D16 /* Pods-ConsoliAds-Inmobi-Adapter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConsoliAds-Inmobi-Adapter_Tests-Info.plist"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
@@ -124,6 +123,7 @@
 		E8285E475E78B114BB51494D1E1F5278 /* Pods-ConsoliAds-Inmobi-Adapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConsoliAds-Inmobi-Adapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ED451B6C7D2D0DE1463E8E91DA90DCA1 /* Pods-ConsoliAds-Inmobi-Adapter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConsoliAds-Inmobi-Adapter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FB5B7E790C4BD63B8D9D2EEEF8E775FB /* Pods-ConsoliAds-Inmobi-Adapter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConsoliAds-Inmobi-Adapter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC2D4F8F28B361FE001A7E6A /* ConsoliAdsInmobiAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ConsoliAdsInmobiAdapter.xcframework; path = "ConsoliAds-Inmobi-Adapter/ConsoliAdsInmobiAdapter.xcframework"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,8 +132,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC2D4F9028B361FE001A7E6A /* ConsoliAdsInmobiAdapter.xcframework in Frameworks */,
 				0C43FC359D59E778649BF2DFBB0BBC88 /* Foundation.framework in Frameworks */,
-				BA81E68027833EBE006DD201 /* ConsoliAdsInmobiAdapter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +248,7 @@
 		940C2BC944642BF1A299F13B5D9386B2 /* ConsoliAds-Inmobi-Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				BA81E67F27833EBE006DD201 /* ConsoliAdsInmobiAdapter.framework */,
+				FC2D4F8F28B361FE001A7E6A /* ConsoliAdsInmobiAdapter.xcframework */,
 				D1B566B1C4E2216628C7D7B5DB0382EB /* Pod */,
 				65E01F95C60CFDB942AB8D31DF18F31D /* Support Files */,
 			);
@@ -620,7 +620,11 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
@@ -651,7 +655,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Inmobi-Adapter_Tests/Pods-ConsoliAds-Inmobi-Adapter_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Inmobi-Adapter_Tests/Pods-ConsoliAds-Inmobi-Adapter_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -685,7 +693,11 @@
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-Inmobi-Adapter/ConsoliAds-Inmobi-Adapter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ConsoliAds-Inmobi-Adapter/ConsoliAds-Inmobi-Adapter.modulemap";
 				PRODUCT_MODULE_NAME = ConsoliAds_Inmobi_Adapter;
 				PRODUCT_NAME = ConsoliAds_Inmobi_Adapter;
@@ -757,6 +769,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -781,7 +794,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Inmobi-Adapter_Tests/Pods-ConsoliAds-Inmobi-Adapter_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Inmobi-Adapter_Tests/Pods-ConsoliAds-Inmobi-Adapter_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -813,7 +830,11 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
@@ -843,7 +864,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Inmobi-Adapter_Example/Pods-ConsoliAds-Inmobi-Adapter_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Inmobi-Adapter_Example/Pods-ConsoliAds-Inmobi-Adapter_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -876,7 +901,11 @@
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-Inmobi-Adapter/ConsoliAds-Inmobi-Adapter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ConsoliAds-Inmobi-Adapter/ConsoliAds-Inmobi-Adapter.modulemap";
 				PRODUCT_MODULE_NAME = ConsoliAds_Inmobi_Adapter;
 				PRODUCT_NAME = ConsoliAds_Inmobi_Adapter;
@@ -945,8 +974,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -968,7 +999,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Inmobi-Adapter_Example/Pods-ConsoliAds-Inmobi-Adapter_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Inmobi-Adapter_Example/Pods-ConsoliAds-Inmobi-Adapter_Example.modulemap";
 				OTHER_LDFLAGS = "";

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConsoliAds-Inmobi-Adapter'
-  s.version          = '9.2.0-1.0'
+  s.version          = '9.2.0-1.1'
   s.summary          = 'This pod is used to get caInmobi adapter for inmobi ad serving after integrating Consoliads-Mediation pod.'
 
 # This description is used to generate tags and improve search results.
@@ -28,11 +28,11 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-s.vendored_frameworks = 'ConsoliAds-Inmobi-Adapter/ConsoliAdsInmobiAdapter.framework'
+s.vendored_frameworks = 'ConsoliAds-Inmobi-Adapter/ConsoliAdsInmobiAdapter.xcframework'
 s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC"}
 
-s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+s.user_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES', "MACH_O_TYPE" => "staticlib"}
+s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES', "MACH_O_TYPE" => "staticlib"}
 s.static_framework = true
 
 end
