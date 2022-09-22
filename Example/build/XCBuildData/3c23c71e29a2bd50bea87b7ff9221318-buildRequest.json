@@ -1,0 +1,65 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98be7fd77e3424be749d0c8814caaa6f24"
+    }
+  ],
+  "containerPath" : "/Volumes/DataDrive/WorkSpace/CocoaPod Git Repos/ConsoliAds-Inmobi-Adapter/Example/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/osamanadeem/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/osamanadeem/Library/Developer/Xcode/DerivedData/Pods-gbzxkfloiawzqncihoirzfdzhrkp/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/osamanadeem/Library/Developer/Xcode/DerivedData/Pods-gbzxkfloiawzqncihoirzfdzhrkp/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone10,3",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "14.3",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "e00c9659b24ab2f1c77354309e9eee033f4135ba",
+          "TARGET_DEVICE_MODEL" : "iPhone10,3",
+          "TARGET_DEVICE_OS_VERSION" : "14.3",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphoneos"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

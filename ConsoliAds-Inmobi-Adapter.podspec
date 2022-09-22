@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConsoliAds-Inmobi-Adapter'
-  s.version          = '9.2.0-1.2'
+  s.version          = '10.0.8-v14.1.0'
   s.summary          = 'This pod is used to get caInmobi adapter for inmobi ad serving after integrating Consoliads-Mediation pod.'
 
 # This description is used to generate tags and improve search results.
